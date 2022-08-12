@@ -1,0 +1,19 @@
+<div class="view">
+  <div class="view1">
+    <div>
+      <img src={{emp?.company_logo}} width="60px" height="60px"/>
+    </div>
+    <div style="padding-left:10px;">
+      <div class="name">{{ emp?.company }}</div>
+      <p class="des">{{emp?.name}} | {{emp?.designation}}</p>
+    </div>
+  </div>
+  <hr style="margin: 15px 0px;">
+
+    <div>
+      <p>{{emp?.job_descripton}}</p>
+      <p>Interests : {{emp?.interests}}</p>
+      <p>Rating : {{emp?.rating}}</p>
+      <a target="_blank" href="{{emp?.view_more}}">view more</a>
+  </div>
+</div>
